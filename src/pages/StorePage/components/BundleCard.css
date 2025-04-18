@@ -1,0 +1,50 @@
+.bundle-card {
+  margin: 8px 16px;
+}
+
+.bundle-card__content {
+  display: flex;
+  padding: 16px;
+  gap: 16px;
+}
+
+.bundle-card__icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.bundle-card__info {
+  flex: 1;
+}
+
+.bundle-card__header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.bundle-card__badge {
+  font-size: 12px;
+  padding: 2px 8px;
+}
+
+.bundle-card__badge--new {
+  background-color: var(--tg-theme-button-color);
+  color: var(--tg-theme-button-text-color);
+}
+
+.bundle-card__badge--popular {
+  background-color: var(--tg-theme-accent-text-color);
+  color: var(--tg-theme-bg-color);
+}
+
+.bundle-card__coverage,
+.bundle-card__price,
+.bundle-card__plans {
+  font-size: 14px;
+  color: var(--tg-theme-hint-color);
+  margin: 2px 0;
+}
